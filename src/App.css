@@ -1,0 +1,23 @@
+.contenedor-principal {    
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.contenedor-card {    
+    margin-right: 20px;
+    margin-left: 20px; /* Agrega margen derecho para separar las tarjetas horizontalmente */
+    margin-bottom: 10px; /* Agrega margen inferior para separar las tarjetas verticalmente */
+    padding: 20px;
+    background-color: white;
+    color: rgba(5, 6, 70, 0.61);
+    border-radius: 1px;
+    overflow: hidden;/*todo lo que sobresalga de la cards se va a acortar*/ 
+    transition: transform 100ms ease;
+    display: inline-block;
+    border: 1px transparent #ccc;
+}
+
+
